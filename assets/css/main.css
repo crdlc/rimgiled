@@ -71,6 +71,29 @@ input, select, textarea {
 	appearance: none;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100000;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+.logo {
+	width: 12vw;
+	margin-bottom: 1.5rem;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3227,28 +3250,6 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-			.logo {
-				width: 12vw;
-				margin-bottom: 1.5rem;
-			}
-
-			.whatsapp {
-			  position:fixed;
-			  width:60px;
-			  height:60px;
-			  bottom:40px;
-			  right:40px;
-			  background-color:#25d366;
-			  color:#FFF;
-			  border-radius:50px;
-			  text-align:center;
-			  font-size:30px;
-			  z-index:100;
-			}
-
-			.whatsapp-icon {
-			  margin-top:13px;
-			}
 
 /* Wrapper */
 
