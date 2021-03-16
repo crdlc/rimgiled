@@ -2033,6 +2033,7 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			position: relative;
+			color: rgba(255, 255, 255, .9);
 		}
 
 		.features section:before {
